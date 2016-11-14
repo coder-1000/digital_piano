@@ -14,83 +14,181 @@ log {/*}
 add wave {/*}
 
 
-force {ps_clk} 0
-force {clk} 1
+force {ps_clk} 1
 force {ps_data} 0 
+force {clk} 0
+
 
 
 run 10ns
 
-force {ps_clk} 0
+force {ps_clk} 0 
+force {ps_data} 0                                                                    
 force {clk} 1
+
+
+run 10ns
+
+
+force {ps_clk} 1
 force {ps_data} 0
+force {clk} 0
+
 
 run 10ns
 
-
 force {ps_clk} 0
-force {clk} 1
 force {ps_data} 0
+force {clk} 1
+
+
+run 10ns
+
+
+force {ps_clk} 1
+force {ps_data} 0
+force {clk} 0
+
+
+run 10ns
+
+
+force {ps_clk} 0
+force {ps_data} 0
+force {clk} 1
+
+
+run 10ns
+
+
+force {ps_clk} 1
+force {ps_data} 0
+force {clk} 0
+
 
 run 10ns
 
 force {ps_clk} 0
-force {clk} 1
 force {ps_data} 1
+force {clk} 1
 
 
 run 10ns
 
-force {ps_clk} 0
-force {clk} 1
+
+force {ps_clk} 1
 force {ps_data} 1
+force {clk} 0
 
-run 10ns
-
-
-force {ps_clk} 0
-force {clk} 1
-force {ps_data} 0
 
 run 10ns
 
 force {ps_clk} 0
-force {clk} 1
 force {ps_data} 1
+force {clk} 1
 
 
 run 10ns
 
+force {ps_clk} 1
+force {ps_data} 1 
+force {clk} 0
+
+
+run 10ns
+
+
 force {ps_clk} 0
-force {clk} 1
 force {ps_data} 0
+force {clk} 1
+
 
 run 10ns
 
 
-force {ps_clk} 0
-force {clk} 1
+force {ps_clk} 1
 force {ps_data} 0
-
-run 10ns
-
-force {ps_clk} 0
-force {clk} 1
-force {ps_data} 0 
+force {clk} 0
 
 
 run 10ns
 
+
 force {ps_clk} 0
+force {ps_data} 1
 force {clk} 1
+
+
+run 10ns
+
+
+force {ps_clk} 1
+force {ps_data} 1
+force {clk} 0
+
+
+run 10ns
+
+force {ps_clk} 0
 force {ps_data} 0
+force {clk} 1
+
 
 run 10ns
 
+
+force {ps_clk} 1
+force {ps_data} 0
+force {clk} 0
+
+
+run 10ns
 
 force {ps_clk} 0
-force {clk} 1
 force {ps_data} 0
+force {clk} 1
+
 
 run 10ns
+
+
+force {ps_clk} 1
+force {ps_data} 0
+force {clk} 0
+
+
+run 10ns
+
+force {ps_clk} 0
+force {ps_data} 0
+force {clk} 1
+
+
+run 10ns
+
+
+force {ps_clk} 1
+force {ps_data} 0
+force {clk} 0
+
+
+run 10ns
+
+force {ps_clk} 0
+force {ps_data} 0
+force {clk} 1
+
+run 10ns
+
+
+force {ps_clk} 1
+force {ps_data} 0
+force {clk} 0
+
+
+run 10ns
+
+
+
+
 
